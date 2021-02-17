@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Main Wrapper that holds game and status-->
+    <div id="mainWrapper">
+      <div id="statusWrapper">
+        <div id="title">
+          <h1>Rock - Paper - Scissors!</h1>
+        </div>
+        <div id="status">0-0</div>
+      </div>
+      <!--Game board as buttons that save gameplay -->
+      <div id="gameBoard">
+        <button disabled="true" class="move playerMove" id="rock">ROCK</button>
+        <button disabled="true" class="move playerMove" id="paper">
+          PAPER
+        </button>
+        <button disabled="true" class="move playerMove" id="scissors">
+          SCISSORS
+        </button>
+      </div>
+      <!--Comp Play Area-->
+      <div id="compMoveWrapper">
+        <button id="compMove" class="move" disabled="true">COMP</button>
+      </div>
+      <div id="startWrapper">
+        <button id="start">PLAY!</button>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
